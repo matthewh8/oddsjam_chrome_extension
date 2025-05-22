@@ -215,7 +215,7 @@ function processTableData(rawText) {
   const lines = rawText.trim().split('\n\n');
   const tableData = [];
   const bankroll = parseFloat(document.getElementById('bankroll').value) || 5000;
-  const kellyMultiplier = parseFloat(document.getElementById('kellyMultiplier').value) || 0.25;
+  const kellyMultiplier = parseFloat(document.getElementById('kellyMultiplier').value) || 0.65;
   
   for (let i = 0; i < lines.length; i += 3) {
       if (i + 2 < lines.length) {
